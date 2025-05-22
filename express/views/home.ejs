@@ -1,0 +1,15 @@
+
+<%- include('header') %>
+<body>
+   <%- include('navbar') %>
+    <h1> <%= title %> </h1>
+    
+    <ul>
+        <%  
+        for(let i = 0; i < items.length; i++){%>
+            <li><%= items[i] %></li>
+            <% }%>
+    </ul>
+    <%- include('footer') %>
+</body>
+</html>
