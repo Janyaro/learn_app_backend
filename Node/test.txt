@@ -1,0 +1,2 @@
+main 2 12 file main write kar rha hoon 
+main file main data ko append kar rha hoon 
