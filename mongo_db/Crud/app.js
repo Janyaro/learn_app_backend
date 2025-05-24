@@ -29,10 +29,11 @@ app.get("/:name/:email/:age", async (req, res) => {
     }
 });
 
+
 app.get('/read',async (req,res)=>{
     res.send('user want to read the data from database');
-    const deleteUser = await crudDataSchema.deleteMany({__v:"0"});
-    console.log('User will delete successfully');
+    // const deleteUser = await crudDataSchema.deleteMany({});
+    // console.log('User will delete successfully');
     // const updateUser = await crudDataSchema.updateOne({name:"waseem"},{age:12});
     // console.log(updateUser.upsertedId);
 const allData = await crudDataSchema.find();
