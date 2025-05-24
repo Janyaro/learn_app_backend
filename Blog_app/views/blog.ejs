@@ -1,0 +1,13 @@
+<%- include("./components/header.ejs") %>
+
+<div class="container my-4">
+  
+    <div class="card-body">
+      <p class="text-muted"><%= blog.createdAt.toDateString() %></p>
+      <h3 class="card-title"><%= blog.title %></h3>
+      <p class="card-text"><%= blog.content %></p>
+  
+  </div>
+</div>
+
+<%- include("./components/footer.ejs") %>

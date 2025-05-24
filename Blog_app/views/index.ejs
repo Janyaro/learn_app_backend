@@ -1,0 +1,24 @@
+<%- include("./components/header.ejs")%>
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">Navbar</span>
+  </div>
+</nav>
+<div class="container my-4">
+<h5>Welcome to my blog channel</h5>
+
+<% blogs.forEach(blog => { %>
+<div class="card my-3"  >
+  <div class="card-body">
+    <p class="text-muted"><%= blog.createdAt %></p>
+    <h5 class="card-title"><%= blog.title %></h5>
+    <p class="card-text"><%= blog.content.slice(0,99) %> <a href="/blog/<%=blog._id%>">Read more</a></p>
+    <a href="/blog/<%=blog._id%>" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+</div>
+
+<% }); %>
+
+    <%- include("./components/footer.ejs")%>
+   

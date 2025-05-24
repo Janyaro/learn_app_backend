@@ -1,0 +1,16 @@
+<%- include("./components/header.ejs")%>
+<nav class="navbar bg-body-tertiary">
+  <div class="container-fluid">
+    <span class="navbar-brand mb-0 h1">Navbar</span>
+  </div>
+</nav>
+<div class="container">
+<form action="/compose" , method="POST">
+  
+    <input type="text" name="title" class="form-control my-2" placeholder="Title">
+  <textarea class="form-control mb-2" name="content" placeholder="Leave a comment here" cols="10" rows="4" ></textarea>
+  <input type="submit" value="Post Blog" class="btn btn-danger">
+</form>
+</div>
+<%- include("./components/footer.ejs")%>
+   
