@@ -1,0 +1,143 @@
+{
+  "project_info": {
+    "project_number": "546578599595",
+    "project_id": "chatapp-f18cd",
+    "storage_bucket": "chatapp-f18cd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546578599595:android:fb06e41234d5e6e67cf1ee",
+        "android_client_info": {
+          "package_name": "com.example.chatbot"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzszj8XnPBHPXtrTQFgLBF3OFu2pGs6yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546578599595:android:7530fca899b52e747cf1ee",
+        "android_client_info": {
+          "package_name": "com.example.expenses_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzszj8XnPBHPXtrTQFgLBF3OFu2pGs6yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546578599595:android:9af88cbbe00fe8057cf1ee",
+        "android_client_info": {
+          "package_name": "com.example.flutter_application"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzszj8XnPBHPXtrTQFgLBF3OFu2pGs6yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546578599595:android:e96a7c5bd57e5b0d7cf1ee",
+        "android_client_info": {
+          "package_name": "com.example.frontendd"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzszj8XnPBHPXtrTQFgLBF3OFu2pGs6yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546578599595:android:ff5bf6b92274f7df7cf1ee",
+        "android_client_info": {
+          "package_name": "com.example.lab_work"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzszj8XnPBHPXtrTQFgLBF3OFu2pGs6yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546578599595:android:b8d9932878245c6a7cf1ee",
+        "android_client_info": {
+          "package_name": "com.example.providettools"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzszj8XnPBHPXtrTQFgLBF3OFu2pGs6yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:546578599595:android:caacfd52c480cddc7cf1ee",
+        "android_client_info": {
+          "package_name": "com.tclilibrary.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzszj8XnPBHPXtrTQFgLBF3OFu2pGs6yk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
